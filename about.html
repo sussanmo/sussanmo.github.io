@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Suad Mohamed - personal interests and creative snapshot." />
+    <title>About Me | Suad Mohamed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="photos/babypic.png" />
+    <link rel="apple-touch-icon" href="photos/babypic.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="about-page">
+    <header class="site-header">
+      <div class="container">
+        <h1>Suad Mohamed</h1>
+        <p class="subtitle">PhD Student at X University</p>
+        <p class="home-note">Personal feed of research, travel, and career milestones.</p>
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="#aboutFeed">About Me</a></li>
+            <li class="nav-contact-item">
+              <button
+                type="button"
+                class="nav-contact-toggle"
+                id="aboutContactToggle"
+                aria-expanded="false"
+                aria-controls="aboutContactRow"
+              >
+                Contact
+              </button>
+              <div class="nav-contact-row" id="aboutContactRow" aria-label="Contact links">
+                <a class="nav-contact-icon" href="mailto:suadmohamedh@gmail.com" aria-label="Email">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+                    <path d="M3 6h18v12H3z" fill="none" stroke="currentColor" stroke-width="1.8" />
+                    <path d="M3 7l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8" />
+                  </svg>
+                </a>
+                <a class="nav-contact-icon" href="https://www.linkedin.com/suad-hmohamed" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+                    <path d="M5 9h3v10H5zM6.5 5.5A1.5 1.5 0 116.5 8a1.5 1.5 0 010-3zM10 9h3v1.6c.7-1.2 2-1.9 3.3-1.8 2.3 0 4 1.5 4 4.5V19h-3v-5.1c0-1.4-.5-2.3-1.8-2.3s-2 .8-2 2.3V19h-3z" fill="currentColor" />
+                  </svg>
+                </a>
+                <a class="nav-contact-icon" href="https://github.com/sussanmo" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+                    <path d="M12 2C6.5 2 2 6.6 2 12.3c0 4.5 2.8 8.3 6.7 9.6.5.1.7-.2.7-.5v-2c-2.7.6-3.2-1.2-3.2-1.2-.4-1.2-1-1.5-1-1.5-.9-.6 0-.6 0-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.3 1.1 2.8.9.1-.7.4-1.1.7-1.3-2.1-.2-4.3-1.1-4.3-4.8 0-1 .3-1.8.8-2.5 0-.2-.3-1.2.1-2.5 0 0 .8-.3 2.6 1a8.8 8.8 0 014.8 0c1.8-1.3 2.6-1 2.6-1 .4 1.3.1 2.3.1 2.5.5.7.8 1.5.8 2.5 0 3.7-2.2 4.6-4.3 4.8.4.3.7 1 .7 2v2.9c0 .3.2.6.7.5 3.9-1.3 6.7-5.1 6.7-9.6C22 6.6 17.5 2 12 2z" fill="currentColor" />
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card about-feed-card" id="aboutFeed">
+        <div class="about-intro-copy">
+          <h2>My Academic and Career Journey</h2>
+          <p class="news-intro">
+            A visual journal of wins, experiments, and defining moments across research and industry.
+            If any post resonates, feel free to <a href="mailto:suadmohamedh@gmail.com">reach out</a>.
+          </p>
+        </div>
+
+        <div class="about-story-toolbar">
+          <div class="story-strip" role="group" aria-label="Story highlights slideshow">
+            <button class="story-highlight" type="button" data-story="research" aria-label="Open Research story slideshow">
+              <span class="story-ring"><img src="photos/eeg_kim.jpeg" alt="Research highlight" class="story-thumb" /></span>
+              <span class="story-label">Research</span>
+            </button>
+            <button class="story-highlight" type="button" data-story="industry" aria-label="Open Industry story slideshow">
+              <span class="story-ring"><img src="photos/microsoft.png" alt="Industry highlight" class="story-thumb" /></span>
+              <span class="story-label">Industry</span>
+            </button>
+            <button class="story-highlight" type="button" data-story="leadership" aria-label="Open Leadership story slideshow">
+              <span class="story-ring"><img src="photos/bit_clubfair.jpeg" alt="Leadership highlight" class="story-thumb" /></span>
+              <span class="story-label">Leadership</span>
+            </button>
+            <button class="story-highlight" type="button" data-story="travel" aria-label="Open Travel story slideshow">
+              <span class="story-ring"><img src="photos/japanconf.png" alt="Travel highlight" class="story-thumb" /></span>
+              <span class="story-label">Travel</span>
+            </button>
+          </div>
+
+          <div class="about-filter-menu-wrap">
+            <button
+              class="about-filter-menu-button"
+              id="aboutFilterMenuButton"
+              type="button"
+              aria-expanded="false"
+              aria-controls="aboutFilterMenu"
+              aria-label="Open feed filters"
+            >
+              <span class="about-filter-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" focusable="false">
+                  <path d="M3 5h18l-7 8v5l-4 2v-7L3 5z" fill="currentColor"></path>
+                </svg>
+              </span>
+              <span>Filter</span>
+            </button>
+            <div class="about-filter-menu" id="aboutFilterMenu" role="group" aria-label="Filter post feed">
+              <button class="about-feed-filter is-active" type="button" data-filter="all">All</button>
+              <button class="about-feed-filter" type="button" data-filter="research">Research</button>
+              <button class="about-feed-filter" type="button" data-filter="industry">Industry</button>
+              <button class="about-feed-filter" type="button" data-filter="leadership">Leadership</button>
+              <button class="about-feed-filter" type="button" data-filter="travel">Travel</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pin-board" aria-label="My Academic Journey">
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="research"
+            data-title="ICSE SEET · Presented Eye-Tracking Research in AI-Assisted Programming"
+            data-image="photos/icse_stand.png"
+            data-images="photos/icse_stand.png|photos/jesus_rio.jpeg|photos/icse_mountain.jpeg|photos/rio_beach.jpeg|photos/rio_mountains.jpeg|photos/rio_street.jpeg"
+            data-description="Presented work at ICSE SEET on assessing the impact of Generative AI Use on Code Summarization through a visual-attention analysis. This was the first research project I helped spearhead as PI with a group of my friends. 
+                              What started as an independent project became an in-depth cross-departmental collaboration with both psychology and computer science faculty.">
+            <img src="photos/icse_stand.png" alt="Presented ICSE SEET research in Rio" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Research</span>
+              <p>ICSE SEET acceptance with an eye-tracking study focus.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="industry"
+            data-title="Aug 2025 · Full-Time Software Engineer at Microsoft"
+            data-image="photos/microsoft.png"
+            data-description="Started full-time on Azure SDN! My work mostly consisted of developing features for an internal web app with networking tools to improve productivity and troubleshooting for cloud engineers on DRI. 
+                            I learned so much during my time here and had such incredible mentors and teammates. I’m so grateful for the opportunity to work with such talented people and to have been able to contribute to a product that supports so many engineers across Microsoft.">
+            <img src="photos/microsoft.png" alt="Started full-time at Microsoft" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Industry</span>
+              <p>Shipped engineering productivity tools on Azure SDN.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="travel research"
+            data-title="May 2025 · ETRA EMIP Workshop Presentation"
+            data-image="photos/japanconf.png"
+            data-images="photos/japanconf.png|photos/japancof.jpeg"
+            data-description="Presented at my first international conference! I got to visit Tokyo and Kyoto for the first time and presented a design paper at the ETRA workshop on eye tracking in programming. Praying I can read kanji by the next time I visit!">
+            <img src="photos/japanconf.png" alt="ETRA Japan workshop presentation" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Travel</span>
+              <p>First international presentation in Tokyo and Kyoto.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="research"
+            data-title="May 2025 · Dual Degree Graduation"
+            data-image="photos/grad.png"
+            data-description="Graduated with B.S. in Computer Science and B.S. in Psychology. Shoutout to the people who let me complain every step of the way!">
+            <img src="photos/grad.png" alt="Graduation milestone" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Research</span>
+              <p>Completed dual degrees in Computer Science and Psychology.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="leadership"
+            data-title="Aug 2024 · Bruins in Tech + Student Leadership"
+            data-image="photos/bit_clubfair.jpeg"
+            data-description="Founded Bruins in Tech at my university and began serving as Chair of the Research & Professional Development Student Advisory Board for CS/Math/Data Science.">
+            <img src="photos/bit_clubfair.jpeg" alt="Bruins in Tech club fair" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Leadership</span>
+              <p>Founded Bruins in Tech and led student professional growth.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="industry"
+            data-title="May–Aug 2024 · Microsoft Internship"
+            data-image="photos/intern.png"
+            data-description="After 75 applications, 1 offer, and 2 online assessments, I began Software Engineering internship on Azure Container Registry team under the mentored of Isaac Lee Senior SWE. Note to self: we often see the end result of linkedin posts and job titles but not the process and people behind it.">
+            <img src="photos/intern.png" alt="Microsoft internship" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Industry</span>
+              <p>Internship that shaped my cloud engineering journey.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="research"
+            data-title="Feb 2024-May 2026 · Joined Vanderbilt MIND Lab, mentored by Zach Karas"
+            data-image="photos/vandylab.jpeg"
+            data-description="One of my professors knew I was interested in research had a former student visiting him (who was now a PhD student at Vanderbilt) and he offered to intrude on their meeting so I can get some insight into his PhD journey. During that conversation, he mentioned a friend doing work I might be interested in and connected me to Dr. Yu Huang's student and the MIND Lab. It was a spontaneous, coincidental opportunity that came from asking a few questions in office hours. Note to self: keep asking questions because you never know what door will open.">
+            <img src="photos/vandylab.jpeg" alt="Joined Vanderbilt MIND Lab" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Research</span>
+              <p>Joined MIND Lab through one timely office-hour conversation.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="leadership"
+            data-title="Feb 2024 · Harvard WeCode Scholar"
+            data-image="photos/hawavrdwecodeconf.jpeg"
+            data-description="Attended Harvard UniversityWeCode Conference  and received a scholarship in February 2024.">
+            <img src="photos/hawavrdwecodeconf.jpeg" alt="Harvard WeCode scholarship" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Leadership</span>
+              <p>Received a WeCode scholarship to attend Harvard conference.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="travel research"
+            data-title="Jan 2024 · Accepted at MSR (Lisbon, Portugal)"
+            data-image="photos/lisbon_parvin.jpeg"
+            data-description="I started this project after a professor emailed me saying it sounded like something I’d be into. A friend and I did a small analysis of developer screenshots from ChatGPT conversations. It was my first intro to mining software engineering research and really shaped my interest in developers, their productivity, and how to support their learning. My co-author, Abdullah Parvin, presented this work in Lisbon, Portugal.">
+            <img src="photos/lisbon_parvin.jpeg" alt="Accepted at MSR Lisbon" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Travel</span>
+              <p>First published software mining work presented in Lisbon.</p>
+            </div>
+          </button>
+
+          <button class="pin-card pin-trigger" type="button"
+            data-category="research"
+            data-title="Early 2024 · First Independent Undergraduate Study: EEG Comparison on Lexical Processing in Programming vs. Non-Programming Students"
+            data-image="photos/eeg_kim.jpeg"
+            data-description="During my junior spring, I conducted an independent research study using EEG under Dr. Michael Oliver. This was the first human study I conducted from start to finish independently and presented at the university's research symposium. It was quite the learning opportunity and I ended up having to scratch all the EEG data because I didn't place it on participants heads correctly...">
+            <img src="photos/eeg_kim.jpeg" alt="First independent EEG study" class="pin-image" />
+            <div class="pin-caption">
+              <span class="pin-caption-tag">Research</span>
+              <p>Built my first independent human-subject study with EEG.</p>
+            </div>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div class="pin-modal" id="pinModal" aria-hidden="true" role="dialog" aria-label="Expanded research pin">
+      <div class="pin-modal-content">
+        <button class="pin-modal-close" id="pinModalClose" type="button" aria-label="Close expanded pin">×</button>
+        <div class="pin-modal-media">
+          <img id="pinModalImage" src="photos/headshot_id.jpeg" alt="Expanded pin" class="pin-modal-image" />
+          <button type="button" class="pin-modal-step pin-modal-step-overlay pin-modal-step-prev" id="pinModalPrev" aria-label="Previous story">‹</button>
+          <button type="button" class="pin-modal-step pin-modal-step-overlay pin-modal-step-next" id="pinModalNext" aria-label="Next story">›</button>
+        </div>
+        <p class="pin-modal-meta" id="pinModalMeta" aria-live="polite"></p>
+        <h3 id="pinModalTitle">Pin title</h3>
+        <p id="pinModalDescription">Pin description goes here.</p>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year">2026</span> Suad Mohamed</p>
+      </div>
+    </footer>
+    <script src="about.js"></script>
+  </body>
+</html>

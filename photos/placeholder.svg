@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Placeholder image">
+  <rect width="1200" height="1200" fill="#e2e8f0"/>
+  <rect x="140" y="140" width="920" height="920" rx="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="8"/>
+  <g fill="#64748b" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="600" y="560" font-size="64" font-weight="700">Future Photo</text>
+    <text x="600" y="635" font-size="34">Add image in photos/ and update about.html</text>
+  </g>
+</svg>
